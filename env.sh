@@ -6,6 +6,9 @@ export AM_HOME=$(pwd)/nexus-am
 export NOOP_HOME=$(pwd)/XiangShan
 export DRAMSIM3_HOME=$(pwd)/DRAMsim3
 
+export PATH=$PATH:/opt/official/glibc/riscv/bin
+
+
 echo SET XS_PROJECT_ROOT: ${XS_PROJECT_ROOT}
 echo SET NOOP_HOME \(XiangShan RTL Home\): ${NOOP_HOME}
 echo SET NEMU_HOME: ${NEMU_HOME}
